@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+</head>
+  
+<body>
+  <main>
+  <h1>Typing Game!</h1>
+  <ul id="scores-unordered-list"></ul>
+    <p>Practice your typing skills with a quote from Harry Potter.<br>Click the start button to begin!</p>
+    <label for="gamer-name">Enter your gamer name. </label>
+    <div class="new">
+        <input type="text" id="gamer-name"></input>
+        <button type="button" class="button" id="start">start game <i class="rocket"></i></button>
+    </div>
+    <p id="quote"></p>
+    <p id="message"></p>
+    <input type="text" id="typed-value"></input>
+  </main>
+  <!-- TOREVIEW -->
+  <template id="score-item-template">
+    <li>
+        <label class="score">
+            <span class="score-text"></span>
+        </label>
+    </li>
+</template>
+<!-- END TO REVIEW -->
+</body>
+</html>
